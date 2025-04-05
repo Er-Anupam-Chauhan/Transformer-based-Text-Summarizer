@@ -1,4 +1,4 @@
-Q1) What is Cross Entropy?
+**What is Cross Entropy?**
 Cross-entropy measures the difference between two probability distributions:
 
 The true distribution (what should happen — your labels)
@@ -20,10 +20,10 @@ Model predicts: [0.2, 0.5, 0.2, 0.1]
 Cross-entropy measures how far [0.2, 0.5, 0.2, 0.1] is from [0, 1, 0, 0].
 
 
-Q2) Why convert data into a PyTorch Dataset?
+**Why convert data into a PyTorch Dataset?**
 Because PyTorch models (and Hugging Face's Trainer) expect data to come from a Dataset or DataLoader during training.
 
-What is T5 (Text-to-Text Transfer Transformer)
+**What is T5 (Text-to-Text Transfer Transformer)**
 t%is a language model developed by Google that treats every NLP task as a text-to-text problem. 
 It uses a Transformer-based encoder-decoder architecture, similar to models like BART and PEGASUS. 
 T5 is pretrained on a large corpus (C4) using a masked span prediction objective. 
